@@ -9,7 +9,7 @@ public class AwsController {
 
     @GetMapping("/hello")
     public String hello() {
-        return "Hello World - GET";
+        return "Hello World - GET Prueba GitHub Actions";
     }
 
     @PostMapping("/hello")
